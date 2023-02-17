@@ -198,9 +198,9 @@ svg{
     z-index: 1000;
     top: 0;
     background-color: var(--header-bg-clr);
-
+/* 
     transform: translateX(100%);
-    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out; */
 }
 
 .mobile-menu_container {
