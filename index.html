@@ -38,7 +38,7 @@
                     </ul>
                 </nav>
                 <!-- Кнопка виклику мобільного меню -->
-                <button type="button" class="mobile-menu-open-btn">
+                <button type="button" class="mobile-menu-open-btn" data-menu-open>
                     <svg class="mobile-menu-open_icon" width="32" height="22">
                         <use href="./svg/symbol-defs.svg#icon-menu-burger" class="icon-menu"></use>
                     </svg>
@@ -55,9 +55,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="mobile-menu">
+            <div class="mobile-menu" data-menu>
                 <div class="mobile-menu_container container">
-                    <button class="mobile-menu-close-btn" type="button" data-modal-close>
+                    <button class="mobile-menu-close-btn" type="button" data-menu-close>
                         <svg class="mobile-menu-close-btn-icon" width="8" height="8">
                             <use href="./svg/symbol-defs.svg#icon-exit_btn">
                             </use>
@@ -128,14 +128,14 @@
         </header>
         <main>
             <!-- Дошка з контентом -->
-            <!-- <section class="hero">
+            <section class="hero">
                 <div class="container">
                     <h1 class="hero-title">Effective Solutions <br/> for Your Business</h1>
-                    <button type="button" class="button primary" data-modal-open>Order Service</button> -->
+                    <button type="button" class="button primary" data-modal-open>Order Service</button>
                     <!-- <a href="" alt="order">Order Service</a> -->
-                <!-- </div>
+                </div>
             </section>
-            Section "Benefits" -->
+            <!-- Section "Benefits" -->
             <!-- <section class="section benefits">
                 <div class="container">
                     <h2 class="section-title">Our advantages</h2>
@@ -532,5 +532,6 @@
         </div> -->
         <!-- Scripts -->
         <!-- <script src="./js/modal.js"></script> -->
+        <script src="./js/mobile-menu.js"></script>
     </body>
 </html>
