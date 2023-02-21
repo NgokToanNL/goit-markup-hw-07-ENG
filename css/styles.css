@@ -2072,9 +2072,9 @@ svg{
         margin-right: 120px;
     }
 
-    .logo > .white {
+    /* .logo > .white {
         color: var(--logo-color-white);
-    }
+    } */
 
     .logo.footer {
         display: flex;
@@ -2086,10 +2086,10 @@ svg{
         margin: 0;
         width: 264px;
 
-        color: var(--footer-text-color);
+        /* color: var(--footer-text-color);
 
         font-size: 16px;
-        line-height: 1.5;
+        line-height: 1.5; */
     }
 
     /* Footer soc media section */
@@ -2108,16 +2108,9 @@ svg{
         padding-bottom: 0;
         margin-bottom: 16px;
 
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-
-        letter-spacing: 0.02em;
-
-        color: #FFFFFF;
     }
 
-    .footer .soc-media {
+    /* .footer .soc-media {
         padding: 0 0;
     }
 
@@ -2127,7 +2120,7 @@ svg{
 
     .footer .soc-item {
         background-color: var(--primary-text-color);
-    }
+    } */
 
     .footer .soc-item:not(:last-child) {
         margin-right: 16px;
@@ -2142,10 +2135,10 @@ svg{
         height: 24px;
     }
 
-    .footer .soc-icon {
+    /* .footer .soc-icon {
         width: 24px;
         height: 24px;
-    }
+    } */
 
     .footer .soc-item:hover,
     .footer .soc-item:focus {
@@ -2176,13 +2169,13 @@ svg{
         /* margin-bottom: 16px; */
         margin-right: 24px;
 
-        font-weight: 500;
+        /* font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
 
         letter-spacing: 0.02em;
 
-        color: #FFFFFF;
+        color: #FFFFFF; */
     }
 
     .sub-title {
@@ -2198,7 +2191,7 @@ svg{
         padding-bottom: 8px;
         padding-left: 16px;
         /* margin-top: 16px; */
-
+/* 
         font-family: inherit;
         font-size: 12px;
         line-height: 24px;
@@ -2211,14 +2204,14 @@ svg{
 
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-        border-radius: 4px;
+        border-radius: 4px; */
     }
 
     .button.primary.sub-btn {
         position: relative;
         display: flex;
         align-items: center;
-        width: 165px;
+        /* width: 165px;
         height: 40px;
         padding-top: 8px;
         padding-bottom: 8px;
@@ -2240,7 +2233,7 @@ svg{
         height: 20px;
         transform: translateX(16px);
 
-        background-color: inherit;
+        /* background-color: inherit; */
     }
 }
 
